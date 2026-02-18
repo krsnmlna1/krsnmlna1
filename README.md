@@ -89,7 +89,7 @@ graph LR
 
 * **LinkedIn:** [Krisna Maulana](https://www.google.com/search?q=https://linkedin.com/in/krsnmlna)
 * **Twitter/X:** [@krsnmlna_1](https://www.google.com/search?q=https://x.com/krsnmlna_1)
-* **Portfolio:** [Sentinel Dashboard](https://www.google.com/search?q=http://localhost:3000)
+* **Portfolio:** [Sentinel](https://sentinel-dashboard-git-copilot-6ff061-krsnmlna1-6867s-projects.vercel.app/)
 
 ---
 
