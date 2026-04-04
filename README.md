@@ -1,98 +1,78 @@
-
 # Hi, I'm Krisna Maulana Rahman 👋
-### Full-Stack AI Engineer & Web3 Researcher | Building Autonomous Intelligence
+### Full-Stack Developer | AI Agents · Blockchain · Automation
 
-I am a developer based in Indonesia 🇮🇩 dedicated to building the next generation of autonomous systems. My work focuses on the intersection of **Blockchain Infrastructure**, **AI Agents**, and **System Security**. I don't just write code; I build "digital organisms" that monitor, analyze, and protect.
-
----
-
-## 🛰️ The Sentinel Ecosystem
-*An integrated intelligence platform for Decentralized Protocols and Systems.*
-
-```mermaid
-graph TD
-    A[On-Chain Data] -->|Real-time Feed| B(Sentinel Command Center)
-    B --> C{AI Intelligence}
-    C -->|Audit| D[Sentinel Auditor]
-    C -->|Snipe| E[Sentinel Sniper]
-    C -->|Profiling| F[Sentiment-Fi]
-    D -.->|Risk Score| B
-    E -.->|Activity| B
-    F -.->|Persona| B
-
-```
-
-### 🟣 [Sentinel Command Center](https://www.google.com/search?q=https://github.com/krsnmlna1/sentinel-dashboard)
-
-**The Hub for On-Chain Intelligence**
-
-* **Unified Interface:** A SaaS-ready dashboard integrating security audits, market sentiment, and whale activity.
-* **Real-Time Surveillance:** Multi-chain volatility analysis and anomaly detection feed.
-* **Tech:** Next.js, Tailwind CSS, Ethers.js, WebSocket.
-
-### 🛡️ [Sentinel Auditor](https://www.google.com/search?q=https://github.com/krsnmlna1/sentinel-auditor)
-
-**AI-Powered Smart Contract Security**
-
-* **The Core:** Uses LLMs (OpenAI/DeepSeek) to detect critical vulnerabilities like Reentrancy and Overflow in Solidity.
-* **Automated Research:** Translates complex code logic into human-readable security reports.
-
-### 🔫 [Sentinel Sniper](https://www.google.com/search?q=https://github.com/krsnmlna1/sentinel-sniper)
-
-**High-Frequency DeFi Automation**
-
-* **Performance:** Mempool monitoring with <100ms latency for token listing detection via Alchemy WSS.
+I build systems that work autonomously — trading bots, security tools, data pipelines, and AI-powered automation. Based in Indonesia 🇮🇩, available for remote contracts.
 
 ---
 
-## 🖥️ System Intelligence: Sentinel-OS
+## 🤖 What I Build
 
-*Autonomous System Monitoring & Protection Agent.*
+**Telegram & Discord Bots** — production-grade bots for trading, monitoring, community automation, and business workflows.
 
-```mermaid
-graph LR
-    S[Sensors: CPU/RAM] -->|Pattern| E[Evaluator]
-    E -->|Anomaly| AI[Groq/Llama 3]
-    AI -->|Decision| G{Governance}
-    G -->|Safe| A[Action: Cleanup/Report]
-    G -->|Unsafe| N[Notification: Discord]
+**AI Agents & Automation** — pipelines that monitor, analyze, and act without manual intervention. Integrations with Groq, OpenAI, and Claude.
 
-```
+**Blockchain Tools** — DeFi infrastructure, mempool monitoring, on-chain data analysis, smart contract security tooling.
 
-### 🛡️ [Digital Agent Ecosystem (Sentinel-OS)](https://www.google.com/search?q=https://github.com/krsnmlna1/Digital-Agent-Ecosystem)
+**Data Pipelines** — scrapers, parsers, and scheduled delivery systems (web → email, API → Telegram, etc).
 
-**An AI-Powered, Multi-Agent System for OS Protection**
+---
 
-* **Self-Aware Monitoring:** A swarm of agents (RAM Guardian, Disk Sentinel) that watches CPU, RAM, and Network.
-* **Cognitive Logic:** Uses Groq/Llama 3 to interpret system patterns and predict issues (e.g., "Disk full in 4 days").
-* **Safety First:** Governance-driven actions that prioritize system stability and user trust.
-* **Tech:** Python, Docker, Groq API, Event-Driven Architecture.
+## 🛰️ Featured Projects
+
+### [Sentinel Trade Bot](https://github.com/krsnmlna1/sentinel-dashboard)
+**Advanced Telegram Trading Platform**
+
+Production-grade non-custodial trading bot with 30+ commands.
+
+- Liquidity sniping with <100ms execution latency via Alchemy WebSocket
+- Automated copy trading with configurable risk guardrails
+- Portfolio analytics: Sharpe ratio, volatility tracking, max drawdown
+- AI token analysis powered by Groq (Llama 3.1 70B)
+- AES-256 non-custodial wallet encryption
+
+**Tech:** TypeScript · Node.js · PostgreSQL · Prisma · Ethers.js · Telegram Bot API · Groq AI
+
+---
+
+### Sentinel Command Center
+**Real-Time DeFi Surveillance Dashboard**
+
+Unified interface for on-chain intelligence: security audits, whale tracking, market sentiment.
+
+- AI-powered smart contract vulnerability scanner (reentrancy, overflow, access control)
+- Real-time mempool monitoring with sub-100ms latency
+- Wallet behavioral profiler using LLMs to classify on-chain personas
+
+**Tech:** Next.js · TypeScript · Ethers.js · OpenAI/DeepSeek APIs · Alchemy WSS · Recharts
+
+---
+
+### News Scraping & Delivery Bot
+**Automated Data Pipeline for a Live Client**
+
+Scraper that monitors specific fields from target sources and delivers formatted summaries via email on schedule. Currently running in production.
+
+**Tech:** Python · BeautifulSoup/Requests · Email automation
 
 ---
 
 ## 🛠 Tech Stack
 
-* **AI/Agents:** Groq API, OpenAI API, DeepSeek, LangChain, Node.js Agents.
-* **Blockchain:** Solidity, Ethers.js, Web3.js, Hardhat, Alchemy/Infura, IPFS.
-* **Frontend/Backend:** Next.js, React, Node.js, Express.js, TypeScript, Python.
-* **Database/Cloud:** PostgreSQL, MongoDB, Docker, Linux (Remote Ops ready).
+**AI & Agents:** Groq API · OpenAI API · DeepSeek · LangChain · OpenClaw · Claude API  
+**Blockchain:** Ethers.js · Web3.js · Solidity · Hardhat · Alchemy · Uniswap V2/V3  
+**Frontend:** Next.js · React · TypeScript · Tailwind CSS · Framer Motion  
+**Backend:** Node.js · Express.js · Python · PostgreSQL · Prisma · WebSocket  
+**DevOps:** Docker · Git · Vercel · Railway · Linux  
 
 ---
 
-## 🧪 Other Research & Proof of Work
+## 📫 Connect
 
-* **Sentiment-Fi:** AI-powered on-chain persona engine analyzing transaction history.
-* **MCP Implementations:** Building Model Context Protocol tools for AI-Blockchain integration.
-* **LDPE Pyrolysis Optimization:** Data-driven research on plastic waste-to-energy conversion.
-
-## 📫 Let's Build Something Together
-
-* **LinkedIn:** [Krisna Maulana](https://www.google.com/search?q=https://linkedin.com/in/krsnmlna)
-* **Twitter/X:** [@krsnmlna_1](https://www.google.com/search?q=https://x.com/krsnmlna_1)
-* **Portfolio:** [Sentinel](https://sentinel-dashboard-git-copilot-6ff061-krsnmlna1-6867s-projects.vercel.app/)
+- **Portfolio:** [krsnmlna.dev](https://krsnmlna.dev)
+- **LinkedIn:** [Krisna Maulana](https://linkedin.com/in/krsnmlna)
+- **Twitter/X:** [@krsnmlna_1](https://x.com/krsnmlna_1)
+- **Email:** hi@krsnmlna.dev
 
 ---
 
-*"The best way to predict the future is to build it."*
-
-```
+*Open to freelance contracts — Telegram/Discord bots, AI automation, Web3 tooling.*
