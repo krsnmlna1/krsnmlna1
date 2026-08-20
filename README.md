@@ -61,9 +61,9 @@ For recon I work archetype-first: map the folder structure to functional roles �
 
 ---
 
-## 🤖 Before This — AI-Directed Builds
+## 🤖 AI-Directed Builds
 
-Not the pitch anymore, but it's where the AI-as-substrate habit came from: I specified requirements and directed AI on implementation end-to-end, rather than hand-writing the code.
+Security is the focus, but this is still live work I take on: I specify requirements and direct AI on implementation end-to-end rather than hand-writing the code — which is also where the habit of treating AI output as a claim to be verified, not an answer, came from.
 
 - **[Sentinel Trade Bot](https://github.com/krsnmlna1/sentinel-dashboard)** — Telegram trading bot: liquidity-sniping and copy-trading commands over Alchemy WebSocket, with token analysis via Groq (Llama 3.1 70B). *TypeScript · Node.js · PostgreSQL · Prisma · Ethers.js*
 - **Sentinel Command Center** — on-chain intelligence dashboard: mempool monitoring and LLM-based wallet-activity classification experiments. *Next.js · TypeScript · Ethers.js · Alchemy WSS · Recharts*
@@ -81,4 +81,4 @@ Not the pitch anymore, but it's where the AI-as-substrate habit came from: I spe
 
 ---
 
-*Open to smart contract audit roles and contract work.*
+*Open to smart contract audit roles, and to AI-directed build contracts.*
