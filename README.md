@@ -10,11 +10,6 @@ Building a public audit track record through contest platforms — Sherlock prim
 
 ## 🛡️ Security Work
 
-### Tare — Sherlock Audit Contest *(judging pending)*
-Private-credit / RWA lending on Avalanche C-Chain. A servicer can post ledger entries — every one of them obeying the rules the function actually enforces, because no magnitude cap exists — that drive the `int128` negation in `Loans.getLoanValues` to overflow. `updateNav` then reverts, and because `removeLoansFromNav`, `setLoans`, and `setCalculator` are all gated behind `_requireIdleNav()`, every vault lever locks at once: deposit and redemption approvals freeze for all shareholders.
-
-Not a permanent brick — a balancing ledger entry clears it — but nothing caps or rate-limits re-triggering it immediately afterward, so the realistic impact is a repeatable freeze rather than a one-shot one. Verified with a 5-test Foundry suite (5/5 passing), submitted in Sherlock's report format.
-
 ### Opus / Shrine — Code4rena Retrospective *(Cairo, Starknet)*
 **[→ writeup + PoC](https://github.com/krsnmlna1/audit-portfolio/tree/main/2024-01-opus)**
 
@@ -56,8 +51,8 @@ For recon I work archetype-first: map the folder structure to functional roles �
 **Security & Auditing:** Solidity · Foundry (forge/cast/anvil/chisel) · Cairo · Starknet Foundry (`snforge`) · Scarb · Slither · manual code review · PoC development
 **Chains:** EVM (Ethereum, Avalanche C-Chain, Base) · Starknet
 **Blockchain:** Ethers.js · Hardhat · Alchemy · Uniswap V2/V3
-**AI Tooling:** Claude API · OpenAI API · Groq · DeepSeek · LangChain
-**Backend / DevOps:** Node.js · TypeScript · Python · PostgreSQL · Prisma · Docker · Git · Linux · WSL2
+**AI Tooling:** Claude API · OpenAI API · Groq · DeepSeek
+**Backend / DevOps:** Node.js · TypeScript · Python · PostgreSQL · Prisma · Docker · Git · Linux
 
 ---
 
